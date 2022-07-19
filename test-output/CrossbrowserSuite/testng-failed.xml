@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [CrossbrowserSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="TestRunner2(failed)">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="com.crm.proearn.contactsTest.ContactTest">
+        <methods>
+          <include name="CreateContactTest"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="lunchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.crm.proearn.contactsTest.ContactTest -->
+    </classes>
+  </test> <!-- TestRunner2(failed) -->
+</suite> <!-- Failed suite [CrossbrowserSuite] -->

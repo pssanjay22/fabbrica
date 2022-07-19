@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegionalregressionSuite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.crm.proearn.organizationTest.OrganizationTest">
+				<methods>
+					<include name="CreateOrganizationTest" />
+				</methods>
+			</class>
+			<class name="com.crm.proearn.contactsTest.ContactTest">
+				<methods>
+					<include name="CreateContactTest" />
+				</methods>
+			</class>
+			<class name="com.crm.proearn.campaignsTest.CampaignTest">
+				<methods>
+					<include name="CreateCampaignWithProductTest" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- RegionalregressionSuite -->

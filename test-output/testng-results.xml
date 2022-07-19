@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="91207" started-at="2022-07-15T10:43:11 IST" finished-at="2022-07-15T10:44:43 IST">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="ContactTest.CreateContactAndDeleteTest()[pri:0, instance:com.crm.proearn.contactsTest.ContactTest@7a9273a8]" name="CreateContactAndDeleteTest" class="com.crm.proearn.contactsTest.ContactTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="ContactTest.CreateContactTest()[pri:0, instance:com.crm.proearn.contactsTest.ContactTest@7a9273a8]" name="CreateContactTest" class="com.crm.proearn.contactsTest.ContactTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test name="Default test" duration-ms="91207" started-at="2022-07-15T10:43:11 IST" finished-at="2022-07-15T10:44:43 IST">
+      <class name="com.crm.proearn.contactsTest.ContactTest">
+        <test-method status="PASS" signature="lunchBrowser()[pri:0, instance:com.crm.proearn.contactsTest.ContactTest@7a9273a8]" name="lunchBrowser" is-config="true" duration-ms="4721" started-at="2022-07-15T10:43:11 IST" finished-at="2022-07-15T10:43:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.crm.proearn.contactsTest.ContactTest@7a9273a8]" name="login" is-config="true" duration-ms="10666" started-at="2022-07-15T10:43:16 IST" finished-at="2022-07-15T10:43:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="CreateContactAndDeleteTest()[pri:0, instance:com.crm.proearn.contactsTest.ContactTest@7a9273a8]" name="CreateContactAndDeleteTest" duration-ms="35749" started-at="2022-07-15T10:43:27 IST" finished-at="2022-07-15T10:44:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContactAndDeleteTest -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.crm.proearn.contactsTest.ContactTest@7a9273a8]" name="logout" is-config="true" duration-ms="3699" started-at="2022-07-15T10:44:03 IST" finished-at="2022-07-15T10:44:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.crm.proearn.contactsTest.ContactTest@7a9273a8]" name="login" is-config="true" duration-ms="9113" started-at="2022-07-15T10:44:06 IST" finished-at="2022-07-15T10:44:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="CreateContactTest()[pri:0, instance:com.crm.proearn.contactsTest.ContactTest@7a9273a8]" name="CreateContactTest" duration-ms="23010" started-at="2022-07-15T10:44:15 IST" finished-at="2022-07-15T10:44:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContactTest -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.crm.proearn.contactsTest.ContactTest@7a9273a8]" name="logout" is-config="true" duration-ms="3195" started-at="2022-07-15T10:44:39 IST" finished-at="2022-07-15T10:44:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.proearn.contactsTest.ContactTest@7a9273a8]" name="closeBrowser" is-config="true" duration-ms="932" started-at="2022-07-15T10:44:42 IST" finished-at="2022-07-15T10:44:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.crm.proearn.contactsTest.ContactTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
